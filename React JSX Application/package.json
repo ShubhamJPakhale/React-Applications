@@ -1,0 +1,22 @@
+{
+  "name": "react-jsx-application",
+  "version": "1.0.0",
+  "description": "This application demonstrate the react using JSX",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jtest "
+  },
+  "author": "Shubham Pakhale",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  }
+}
