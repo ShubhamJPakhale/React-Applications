@@ -1,0 +1,35 @@
+#title {
+  background-color: bisque;
+}
+
+#demo {
+  background-color: lightgrey;
+  padding: 10px 10px 10px 10px;
+}
+
+#head1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: brown;
+}
+
+#headercomp {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .imgheader {
+    text-align: center;
+    vertical-align: center;
+  }
+  
+  #txthead {
+    vertical-align: middle;
+    padding-top: -10px;
+  }
+  
+  #iconsearch {
+    float: right;
+    padding-right: 20px;
+  } */

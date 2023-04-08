@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Website</title>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <script>
+        //const demo=React.createElement("h1",{},"Everything in react is object.");
+
+        /*
+        <div>
+            <h2>div1 data</h2>
+            <h2>div2 data</h2>
+        </div>
+        */
+       // for above kind of html container react code as below:
+
+        const div1=React.createElement("h2",{},"Inside Main container. This is first child div.");
+        const div2=React.createElement("h2",{},"Inside Main container. This is second child div.");
+
+        //container is for appending children in the main container
+        const container=React.createElement("div",{},[div1,div2]); //react will create elements.
+
+        const root=ReactDOM.createRoot(document.getElementById("root")); // reactDOM will create the root element and append the react element to it.
+
+        //root.render(demo);
+
+        //The below render function will add elements to the root element DOM element and render it.
+        root.render(container);
+    </script>
+
+</html>

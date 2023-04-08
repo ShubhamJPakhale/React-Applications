@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "browserslist": "^4.21.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "defaults and supports es6-module",
+    "maintained node versions"
+  ],
+  "name": "react-with-parcel-bundlers",
+  "version": "1.0.0",
+  "description": "This is React application which used Parecel as bundlers and we are making production reacy react app with parcel bundlers",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jtest "
+  },
+  "author": "Shubham Pakhale",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  }
+}
